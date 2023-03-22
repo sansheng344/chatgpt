@@ -192,8 +192,7 @@ export default () => {
             ref={inputRef!}
             disabled={systemRoleEditing()}
             onKeyDown={handleKeydown}
-            placeholder="Enter something..."
-            readonly
+            placeholder="Enter something..." 
             autocomplete="off"
             autofocus
             onInput={() => {
